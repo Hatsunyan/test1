@@ -1,0 +1,60 @@
+body,
+html
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.layer
+{
+    max-width: 1200px;
+    min-width: 800px;
+    margin: 50px auto;
+}
+.filter
+{
+    margin: 20px 0;
+    text-align: center;
+}
+.filter form
+{
+    margin-bottom: 10px;
+}
+table
+{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+td,
+th
+{
+    border: solid 1px #ccc;
+    padding: 5px;
+}
+th
+{
+    background-color: #ccc;
+}
+.messages
+{
+    position: absolute;
+    right: 50px;
+    top: 50px;
+}
+.error
+{
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+.error.pattern
+{
+    display: none;
+}
